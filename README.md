@@ -8,12 +8,21 @@
     
 ### OptionList
    --echo, -e     Echo
+   
    --tweet, -t    tweet
+   
    --at, -a       at tweet(screen name)
+   
                     (-t -a [to_screen_name] [tweet_texts...])
+                    
    --reply, --rp  reply(tweet_id)
+   
    --retweet, -r  retweet(tweet_id)
+   
    --undo, -u     undo(retweet and other)
+   
    --home, (or without options)         show timeline
+   
    --help, -h     show help
+   
    --version, -v  print the version
