@@ -13,7 +13,7 @@
    
    --at, -a       at tweet(screen name)
    
-                    (-t -a [to_screen_name] [tweet_texts...])
+   (-t -a [to_screen_name] [tweet_texts...])
                     
    --reply, --rp  reply(tweet_id)
    
