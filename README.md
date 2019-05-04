@@ -1,4 +1,6 @@
 # twitter-cli-go
+## Warning
+    あまりにも適当なコードがツイートを行う謎のプログラムもどき
 ## How to use
 ### First settings
     export "CONSUMER_KEY" = "twitter-app-consumer-key"
