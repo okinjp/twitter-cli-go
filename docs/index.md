@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Top
+title:  twitter-cli-go
 ---
 
-# twitter-cli-go
+<!-- # twitter-cli-go -->
 
 ## How to use
 
