@@ -15,9 +15,6 @@ jobs:
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v1
-    
-    - name: GitHub Action for Slack
-      uses: Ilshidur/action-slack@1.0.1
 
     - name: Get dependencies
       run: |
