@@ -1,3 +1,8 @@
+---
+layout: default
+title: Top
+---
+
 # twitter-cli-go
 
 ## How to use
@@ -18,8 +23,8 @@
 --at, -a at tweet(screen name)
 
 (-t -a [to_screen_name][tweet_texts...])
-  
- --reply, --rp reply(tweet_id)
+
+--reply, --rp reply(tweet_id)
 
 --retweet, -r retweet(tweet_id)
 
