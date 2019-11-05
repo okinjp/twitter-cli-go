@@ -19,7 +19,7 @@ jobs:
     - name: GoReleaser Action
       uses: goreleaser/goreleaser-action@v0.1.0
       with:
-          args: release --rm-dist
+          args: release --snapshot
           key: ${{ secrets.YOUR_PRIVATE_KEY }}
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
