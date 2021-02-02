@@ -10,7 +10,7 @@
     export "ACCESS_TOKEN_SECRET" = "access-token-secret"
     
  ### Run
-    go run main.go -t "I'm first tweet form cli!"
+    go run main.go -t "I'm first tweet from cli!"
  
 ### OptionList
    --echo, -e     Echo
