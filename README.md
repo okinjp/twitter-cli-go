@@ -3,11 +3,15 @@
     あまりにも適当なコードがツイートを行う謎のプログラムもどき
 ## How to use
 ### First settings
+    go get -u github.com/okinjp/twitter-cli-go
     export "CONSUMER_KEY" = "twitter-app-consumer-key"
     export "CONSUMER_SECRET" = "twitter-app-consumer-secret"
     export "ACCESS_TOKEN" = "access-token"
     export "ACCESS_TOKEN_SECRET" = "access-token-secret"
     
+ ### Run
+    go run main.go -t "I'm first tweet form cli!"
+ 
 ### OptionList
    --echo, -e     Echo
    
