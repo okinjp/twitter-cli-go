@@ -5,10 +5,15 @@ title: Top
 
 # twitter-cli-go
 
+## About
+
+It's twitter client for cli.
+
 ## How to use
 
 ### First settings
 
+    go get -u github.com/okinjp/twitter-cli-go
     export "CONSUMER_KEY" = "twitter-app-consumer-key"
     export "CONSUMER_SECRET" = "twitter-app-consumer-secret"
     export "ACCESS_TOKEN" = "access-token"
