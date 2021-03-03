@@ -22,7 +22,7 @@ func main() {
 		args := context.Args()
 		if context.Bool("echo") {
 			fmt.Println(context.Args().Get(0))
-		} else if args.Len() > 0 {
+		} else if len(args) > 0 {
 			if context.Bool("retweet") {
 				var tweetID int64
 				tweetID, err := strconv.ParseInt(args.Get(0), 10, 64)
@@ -56,7 +56,7 @@ func main() {
 				var text string
 				v := url.Values{}
 				api := getTwitterAPI()
-				for index := 0; index < args.Len(); index++ {
+				for index := 0; index < len(args); index++ {
 					text += args.Get(index) + " "
 				}
 				if context.Bool("at") {
