@@ -1,6 +1,6 @@
 # twitter-cli-go
 
-[![release](https://github.com/okinjp/twitter-cli-go/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/okinjp/twitter-cli-go/actions/workflows/release.yml)
+[![release](https://github.com/okinjp/twitter-cli-go/actions/workflows/release.yml/badge.svg)](https://github.com/okinjp/twitter-cli-go/actions/workflows/release.yml)
 
 ## Warning
     あまりにも適当なコードがツイートを行う謎のプログラムもどき
